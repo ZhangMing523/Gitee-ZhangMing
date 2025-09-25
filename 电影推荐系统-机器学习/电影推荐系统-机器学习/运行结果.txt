@@ -1,0 +1,107 @@
+C:\Users\20361\anaconda3\python.exe D:\JQXX\实训\电影推荐系统优化.py 
+   movieId  ...                                       genres
+0        1  ...  Adventure|Animation|Children|Comedy|Fantasy
+1        2  ...                   Adventure|Children|Fantasy
+2        3  ...                               Comedy|Romance
+3        4  ...                         Comedy|Drama|Romance
+4        5  ...                                       Comedy
+
+[5 rows x 3 columns]
+   userId  movieId  rating   timestamp
+0       1        2     3.5  1112486027
+1       1       29     3.5  1112484676
+2       1       32     3.5  1112484819
+3       1       47     3.5  1112484727
+4       1       50     3.5  1112484580
+   movieId                               title
+0        1                    Toy Story (1995)
+1        2                      Jumanji (1995)
+2        3             Grumpier Old Men (1995)
+3        4            Waiting to Exhale (1995)
+4        5  Father of the Bride Part II (1995)
+   userId  movieId  rating
+0       1        2     3.5
+1       1       29     3.5
+2       1       32     3.5
+3       1       47     3.5
+4       1       50     3.5
+   userId  movieId  rating                                              title
+0       1        2     3.5                                     Jumanji (1995)
+1       1       29     3.5  City of Lost Children, The (Cité des enfants p...
+2       1       32     3.5          Twelve Monkeys (a.k.a. 12 Monkeys) (1995)
+3       1       47     3.5                        Seven (a.k.a. Se7en) (1995)
+4       1       50     3.5                         Usual Suspects, The (1995)
+userId     0
+movieId    0
+rating     0
+title      0
+dtype: int64
+                                               title  totalRatingCount
+0                   "Great Performances" Cats (1998)               155
+1  #chicagoGirl: The Social Network Takes on a Di...                 3
+2                                 $ (Dollars) (1971)                24
+3                                    $5 a Day (2008)                39
+4                                       $9.99 (2008)                55
+   userId  ...  totalRatingCount
+0       1  ...             22243
+1       1  ...              8520
+2       1  ...             44980
+3       1  ...             43249
+4       1  ...             47006
+
+[5 rows x 5 columns]
+count   26729.000
+mean      748.261
+std      3086.673
+min         1.000
+25%         3.000
+50%        18.000
+75%       205.000
+max     67310.000
+Name: totalRatingCount, dtype: float64
+(20000263, 5)
+0.600   11986.000
+0.620   12662.000
+0.640   13553.000
+0.660   14261.000
+0.680   15263.000
+0.700   15909.000
+0.720   17394.000
+0.740   18866.000
+0.760   20465.000
+0.780   21684.000
+0.800   23309.000
+0.820   24372.000
+0.840   26254.000
+0.860   28348.000
+0.880   31353.000
+0.900   33024.000
+0.920   37553.000
+0.940   43249.000
+0.960   47006.000
+0.980   53769.000
+Name: totalRatingCount, dtype: float64
+(19848065, 5)
+userId                                   1       2       ...  138492  138493
+title                                                    ...                
+"Great Performances" Cats (1998)          0.000   0.000  ...   0.000   0.000
+$9.99 (2008)                              0.000   0.000  ...   0.000   0.000
+'Hellboy': The Seeds of Creation (2004)   0.000   0.000  ...   0.000   0.000
+'Round Midnight (1986)                    0.000   0.000  ...   0.000   0.000
+'Salem's Lot (2004)                       0.000   0.000  ...   0.000   0.000
+
+[5 rows x 138493 columns]
+(10523, 138493)
+
+
+
+Enter Movie name: Panda
+Recommendations for Amazing Panda Adventure, The (1995):
+
+1: Gordy (1995), with distance of 0.7204
+2: Big Green, The (1995), with distance of 0.7541
+3: Far From Home: The Adventures of Yellow Dog (1995), with distance of 0.7622
+4: Tom and Huck (1995), with distance of 0.7708
+5: Free Willy 2: The Adventure Home (1995), with distance of 0.7729
+
+进程已结束,退出代码0
