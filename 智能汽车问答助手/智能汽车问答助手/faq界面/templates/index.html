@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>汽车小助手</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">汽车小助手</h1>
+            <nav>
+                <a href="/add" class="nav-button">
+                    <i class="fas fa-plus"></i> 新建问答
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="search-card">
+                <div class="search-box">
+                    <input type="text"
+                           id="searchInput"
+                           placeholder="请输入您的问题，例如：如何重置汽车小程序的密码？"
+                           autocomplete="off">
+                    <button onclick="searchAnswer()" class="search-button">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                <div id="searchResults" class="results-container"></div>
+            </div>
+        </div>
+    </main>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
+<!-- 示例卡片 -->
+<div class="knowledge-card" onclick="this.querySelector('.card-inner').classList.toggle('is-flipped')">
+    <div class="card-inner">
+        <div class="card-front">
+            <p>--------</p>
+            <h4>常见问题：机油更换周期？</h4>
+            <p>--------</p>
+        </div>
+        <div class="card-back">
+            <h4>推荐方案</h4>
+            <ul>
+                <li>全合成机油：10,000公里/12个月</li>
+                <li>半合成机油：7,500公里/9个月</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<button class="voice-search" onclick="startVoiceRecognition()">
+    <i class="fas fa-microphone"></i>
+</button>
