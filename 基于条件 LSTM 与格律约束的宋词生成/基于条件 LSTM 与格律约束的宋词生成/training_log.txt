@@ -1,0 +1,77 @@
+训练开始时间: 2025-07-03 12:32:17.580356
+模型参数: 1703022
+优化器: Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.0005
+    maximize: False
+    weight_decay: 0.0001
+)
+学习率: 0.0005
+
+Epoch 1/25
+Train Loss: 7.0517, Val Loss: 6.8876
+Val Accuracy: 0.0029, Val Precision: 0.0000
+Val Recall: 0.0029, Val F1: 0.0000
+Learning Rate: 0.0005
+------------------------------------------------------------
+Epoch 2/25
+Train Loss: 6.7036, Val Loss: 6.8766
+Val Accuracy: 0.0039, Val Precision: 0.0000
+Val Recall: 0.0039, Val F1: 0.0000
+Learning Rate: 0.0005
+------------------------------------------------------------
+Epoch 3/25
+Train Loss: 6.6845, Val Loss: 6.8848
+Val Accuracy: 0.0137, Val Precision: 0.0002
+Val Recall: 0.0137, Val F1: 0.0004
+Learning Rate: 0.0005
+------------------------------------------------------------
+Epoch 4/25
+Train Loss: 6.6776, Val Loss: 6.8974
+Val Accuracy: 0.0137, Val Precision: 0.0002
+Val Recall: 0.0137, Val F1: 0.0004
+Learning Rate: 0.0005
+------------------------------------------------------------
+Epoch 5/25
+Train Loss: 6.6725, Val Loss: 6.8879
+Val Accuracy: 0.0137, Val Precision: 0.0002
+Val Recall: 0.0137, Val F1: 0.0004
+Learning Rate: 0.0005
+------------------------------------------------------------
+Epoch 6/25
+Train Loss: 6.6706, Val Loss: 6.8880
+Val Accuracy: 0.0137, Val Precision: 0.0002
+Val Recall: 0.0137, Val F1: 0.0004
+Learning Rate: 0.00025
+------------------------------------------------------------
+Epoch 7/25
+Train Loss: 6.6442, Val Loss: 6.8884
+Val Accuracy: 0.0137, Val Precision: 0.0002
+Val Recall: 0.0137, Val F1: 0.0004
+Learning Rate: 0.00025
+------------------------------------------------------------
+Epoch 8/25
+Train Loss: 6.6429, Val Loss: 6.8881
+Val Accuracy: 0.0137, Val Precision: 0.0002
+Val Recall: 0.0137, Val F1: 0.0004
+Learning Rate: 0.00025
+------------------------------------------------------------
+Epoch 9/25
+Train Loss: 6.6429, Val Loss: 6.8863
+Val Accuracy: 0.0137, Val Precision: 0.0002
+Val Recall: 0.0137, Val F1: 0.0004
+Learning Rate: 0.00025
+------------------------------------------------------------
+Epoch 10/25
+Train Loss: 6.6425, Val Loss: 6.8865
+Val Accuracy: 0.0137, Val Precision: 0.0002
+Val Recall: 0.0137, Val F1: 0.0004
+Learning Rate: 0.000125
+------------------------------------------------------------
